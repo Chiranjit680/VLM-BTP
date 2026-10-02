@@ -1,0 +1,7 @@
+torch
+transformers>=4.49
+accelerate
+pillow
+numpy
+langgraph
+mcp>=2

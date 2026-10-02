@@ -1,0 +1,67 @@
+# ---- Project: large data, weights and outputs (never push) ----
+/datasets/
+/models/
+/runs/
+
+# Model weights / checkpoints / data blobs anywhere
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.h5
+*.npy
+*.npz
+*.parquet
+*.arrow
+
+# Hugging Face / training caches
+.cache/
+.huggingface/
+hf_cache/
+wandb/
+lightning_logs/
+tensorboard/
+outputs/
+tmp/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Environments / secrets ----
+.venv/
+venv/
+env/
+.env
+.env.*
+*.pem
+*.key
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Claude Code local state ----
+.claude/settings.local.json
